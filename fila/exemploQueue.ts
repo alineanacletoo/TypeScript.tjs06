@@ -1,5 +1,5 @@
 import readlinkSync = require("readline-sync")
-import { Queue } from "./Queue"
+import { Queue } from "./queue";
 
 const fila = new Queue<number>();
 

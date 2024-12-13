@@ -10,6 +10,9 @@ interface queueInterface<Type> {
  }
  
  export class Queue<Type> implements queueInterface<Type> {
+    list() {
+        throw new Error("Method not implemented.");
+    }
  
     private QueueData: Array<Type> = [];
  

@@ -10,6 +10,9 @@ interface stackInterface<Type> {
  }
  
  export class Stack<Type> implements stackInterface<Type> {
+    list() {
+        throw new Error("Method not implemented.");
+    }
  
     private StackData: Array<Type> = [];
  
